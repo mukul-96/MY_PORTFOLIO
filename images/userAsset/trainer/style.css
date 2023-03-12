@@ -1,0 +1,263 @@
+@font-face {
+    font-family: myfF;
+    src: url(RobotoCondensed-Bold.ttf);
+    font-family:oswald;
+    src: url(Oswald-VariableFont_wght.ttf);
+  }
+*{margin: 0%;
+padding: 0%;
+box-sizing: border-box;
+}
+.wrapper{
+    display:flex;
+    height:100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    flex-wrap: wrap;
+    font-family: oswald;
+}  
+.back{
+    background-image: url(anastase-maragos-9dzWZQWZMdE-unsplash.jpg);
+}
+.back2{
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height:100%;
+    width: 100%;
+    color: white;
+}
+
+.name{
+  letter-spacing: 4px;
+    position: absolute;
+    top: 40%;
+    font-size: 60px;
+    left: 10%;
+    font-family:oswald,serif;
+    -webkit-text-stroke: 1px #f6f7f8;
+    -webkit-text-fill-color: transparent;
+    
+}
+#profile{
+  
+    position: absolute;
+    top: 50%;
+    font-size: 90px;
+    letter-spacing: 4px;
+    left: 10%;
+}
+#top{
+    
+    position: absolute;
+    font-size: 30px;
+    padding: 31px;
+    text-shadow: 0px 0px 3px yellow;
+}
+#b1{
+    position: absolute;
+    background-color: transparent;
+    height: 55px;
+    font-size: 20px;
+    width: 190px;
+    color: rgb(230, 222, 222);
+    border-color:white;
+    top: 70%;
+    left: 10%;
+    z-index: 1;
+}
+#b1:hover{
+    background-color: red;
+    transition: 0.5s;
+    transform: scale(1.1); 
+}
+#b2:hover{
+    background-color: red;
+    transition: 0.5s;
+    transform: scale(1.1);
+   
+}
+#b2{
+    position: absolute;
+    background-color: transparent;
+    height:55px;
+    font-size: 20px;
+    width: 190px;
+    color: white;
+    border-color:white;
+   right: 0%;
+   margin: 20px;
+   z-index:1;
+}
+.bar{
+    position:absolute;
+    left: 22%;
+    font-size: 22px;
+    list-style:none;
+}
+.s2 {
+    position: sticky;
+    padding: 20px;
+    float: right;
+    margin-top: 14px;
+    margin-left: 25px;
+    font-family: oswald;
+    color: #f6f7f8;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline white;
+    }
+    .sec{
+        height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content:center;
+    }
+    .offer{
+        height: 100%;
+        width:100%;
+        background-color: #000000;
+        display: flex;
+        justify-content: space-around;
+        position: relative;
+        overflow: hidden;
+    }
+    .img1{
+        height: 70%;
+    }
+    #img1{
+        position: absolute;
+        left: -8%;
+        z-index: 1;
+        scale: 1.1;
+        margin-top: 20px;
+    }
+#img2{
+    position: absolute;
+    right: -10%;
+    height: 100%;
+    margin-top:-72px;
+    scale: 1.03;
+    /* z-index: 1; */
+}
+#pt{
+    position: absolute;
+    color: white;
+    z-index: 2;
+    font-size: 45px;
+    left: 9%;
+    top: 30%;
+    text-shadow: 3px 3px 3px #000000;
+}
+#gt{
+    position: absolute;
+    color: white;
+    z-index: 2;
+    font-size: 45px;
+    right: 19%;
+    top: 30%;
+    text-shadow: 3px 3px 3px #000000;
+}
+.offer span{
+    position: absolute;
+    color: white;
+    z-index: 2  ;
+    text-shadow:3px 3px 3px black;
+    font-family:myff;
+}
+.gt span{
+    top:40% ;
+    right: 3%;
+    font-size: 16px;
+}
+.pt span{
+    top:40% ;
+    left: 3%;
+    font-size: 16px;
+}
+#bb2{
+    position: absolute;
+    background-color: transparent;
+    height:55px;
+    font-size: 20px;
+    width: 190px;
+    color: white;
+    border-color:white;
+   right: 22%;
+   bottom: 38%;
+   text-shadow: 3px 3px 3px black;
+   z-index:1;
+   font-family: oswald;
+}
+#bb1{
+    text-shadow: 3px 3px 3px black;
+    font-family: oswald;
+    position: absolute;
+    background-color: transparent;
+    height:55px;
+    font-size: 20px;
+    width: 190px;
+    color: white;
+    border-color:white;
+   left: 17%;
+   bottom: 38%;
+   z-index:1;
+}
+#bb1:hover{
+    background: red;
+    transition: 0.5s;
+    transform: scale(1.1); 
+}
+#bb2:hover{
+    background: red;
+    transition: 0.5s;
+    transform: scale(1.1); }
+ 
+
+#what_offer{
+    width: 100%;
+    height: 200px;
+    position: relative;
+    color: white;
+    font-family: oswald,serif;
+    -webkit-text-stroke: 1px #f6f7f8;
+    -webkit-text-fill-color: transparent;
+    font-size: 160px;
+    padding-left: 350px;
+    background: #000000;
+}
+.plans{
+    height: 100%;
+    position: relative;
+    background-color: #000000;
+    width: 100%;
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px;
+}
+ .plan1 span{position: absolute;
+  background-color: rgb(4, 255, 0); 
+  font-size:40px;
+} 
+/*.plan1 pre{
+    background-color: #e1fe06;
+    position: absolute; */
+.plan1{
+    height: 100%;
+}
+.plan1 img{
+    height:60%;
+}
